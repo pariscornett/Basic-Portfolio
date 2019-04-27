@@ -1,5 +1,6 @@
 body {
-  background-color: silver;
+  background-image: url(../images/wheat.png);
+  width: 100%;
 }
 
 header {
@@ -115,4 +116,103 @@ input {
     top: 15px;
     width: 50px;
     height: 20px;
+}
+
+#train {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.trainBanner {
+    position:relative;
+    top: -100px;
+    left: 0px;
+    width:120px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eee;
+}
+
+
+#bohemianBar {
+    position: relative;
+    top:0 px;
+    left:0px;
+    height:200px;
+    width: 200px;
+}
+
+.bohemianBarBanner {
+    position: relative;
+    top:-100px;
+    left: 0px;
+    width:120px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#eee;
+}
+
+#food {
+    position: relative;
+    top:0px;
+    left:0px;
+    height:200px;
+    width: 200px;
+}
+
+.foodBanner {
+    position: relative;
+    top:-100px;
+    left:0px;
+    width:120px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#eee;
+}
+
+#park {
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    height:200px;
+    width: 200px;
+}
+
+.parkBanner {
+    position:relative;
+    top:-748px;
+    left:360px;
+    width:120px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eee;
+}
+
+#cat {
+    position: relative;
+    top: -650px;
+    left:360px;
+    height:200px;
+    width: 200px;
+}
+
+.catBanner {
+    position:relative;
+    top:-748px;
+    left:360px;
+    width:120px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #eee;
+}
+
+.mainBoxPortfolio {
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    padding: 40px;
+    width: 960px;
+    height: 800px;
 }
